@@ -1,20 +1,22 @@
 # Personalized-recommendations
 This project suggests products to customers based on their purchase history. All files can be run on Google Colab.
 
-Dataset:
-The dataset was created using the Data_Generation.ipynb file. The csv has been downloaded.
+How to Run:
+All files are uploaded as Python Notebooks. The links to the Google Colabs are linked below.
+1. If you want to create your own dataset, use the link to Data_Generation.ipynb and run all cells
+     - The dataset created will be used in the upcoming steps
+     - Link: https://colab.research.google.com/drive/13odxIDVgcRQ7NJ8WbAKZvgp7BKq72JtJ?usp=sharing
+  
+   If you want to use the dataset I created, download the purchase_data.csv in the Dataset folder
 
-Clustering:
-There are two files that implements Customer Segmentation. Classification.ipynb implements a clustering algorithm that only accounts for product information, such as category, price, etc. In Cosine_recommendation.ipynb, the clustering algorithm also takes into account the date of purchase. This is the data that is used in the recommendation system. Both files use KPrototypes for clustering.
-  - You may need to install kmodes. Simply uncomment the first cell to do so.
-
-Recommendation:
-The recommendation algorithm in Cosine_recommendation.ipynb uses cosine similarity. 
-  - You may need to install kmodes and sklearn. Simply uncomment the first cell to do so.
-
-The recommendation algorithm in SVD_recommendation.ipynb uses SVD.
-  - You may need to install scikit-surprise, but this requires you to downgrade to numpy<2.
-      - Uncomment the first three cells and run them
-      - Restart the session before importing the libraries
-
-
+2. To view the clustering results and stats, use the link to Clustering_Final.ipynb.
+     - Upload the dataset from Step 1
+     - Run all the cells
+     - This will output a csv file with the clustering results called customer_segmentation.csv
+     - Link: https://colab.research.google.com/drive/1an9UDp9DJBBYu50EwHO7rji1HCm3Z1DQ?usp=sharing
+  
+3. To run the recommendations algorithm, use the link to Cosine_sim_recommendation_Final.ipynb.
+     - Upload the dataset from Step 1
+     - Run all the cells
+     - To download the recommendations for all customers, uncomment the last cell and run it. It will output a csv file called customer_recommendations.csv
+     - Link: https://colab.research.google.com/drive/1JXN7Hxv4dXAAYYe8VrhlpldmciXolb-W?usp=sharing
