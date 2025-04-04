@@ -13,10 +13,15 @@ All files are uploaded as Python Notebooks. The links to the Google Colabs are l
      - Upload the dataset from Step 1
      - Run all the cells
      - This will output a csv file with the clustering results called customer_segmentation.csv
-     - Link: https://colab.research.google.com/drive/1an9UDp9DJBBYu50EwHO7rji1HCm3Z1DQ?usp=sharing
+     - Link: https://colab.research.google.com/drive/1mrIGD-6ydegGy2ACHkN2tgXzR1knABci?usp=sharing
   
 3. To run the recommendations algorithm, use the link to Cosine_sim_recommendation_Final.ipynb.
      - Upload the dataset from Step 1
      - Run all the cells
      - To download the recommendations for all customers, uncomment the last cell and run it. It will output a csv file called customer_recommendations.csv
-     - Link: https://colab.research.google.com/drive/1JXN7Hxv4dXAAYYe8VrhlpldmciXolb-W?usp=sharing
+     - Link: https://colab.research.google.com/drive/1YCqMe1aa52m6LQMKf1qHglcdWPxL_K2F?usp=sharing
+  
+
+Data Generation Link: https://colab.research.google.com/drive/13odxIDVgcRQ7NJ8WbAKZvgp7BKq72JtJ?usp=sharing
+Clustering Link: https://colab.research.google.com/drive/1mrIGD-6ydegGy2ACHkN2tgXzR1knABci?usp=sharing
+Recommendation Link: https://colab.research.google.com/drive/1YCqMe1aa52m6LQMKf1qHglcdWPxL_K2F?usp=sharing
